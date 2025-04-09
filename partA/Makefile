@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++14 -g
 DEP_DIR= ../dependencies
 
 ##### EDIT ME!!! #####################
-MAINEXEFILE = date.cc
+MAINEXEFILE = date.correct.cc
 ######################################
 MAINTESTFILE = date_unittest.cc
 LABTESTEXE = date_unittest

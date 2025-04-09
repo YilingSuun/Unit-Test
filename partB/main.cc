@@ -6,11 +6,16 @@ using namespace std;
 
 int main() {
   RedBlackTree* tree = new RedBlackTree();
+  tree->clear();
 
-  tree->insert(10);
-  tree->insert(20);
-  tree->insert(30);
+  tree->insert(1);
+  tree->insert(1);
+  tree->insert(1);
+  tree->insert(1);
+  tree->insert(1);
 
   tree->printTree();
+  tree->inorderTraversal();
+
   return 0;
 }
